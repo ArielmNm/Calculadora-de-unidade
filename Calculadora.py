@@ -63,10 +63,3 @@ def PetabyteParaTerabyte(valorASerConvertido):
     print('Valor convertido de Petabyte para Terabyte')
     bitsCalculado = valorASerConvertido *1024
     return bitsCalculado
-
-
-print('Insira o valor a ser convertido')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = byteParaBit(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)
-
